@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('quantity', models.PositiveIntegerField(default=0)),
-                ('create_timestamp', models.DateTimeField(auto_now_add=True)),
+                ('created_timestamp', models.DateTimeField(auto_now_add=True)),
                 ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='products.product')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
