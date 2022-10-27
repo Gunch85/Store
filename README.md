@@ -1,2 +1,3 @@
-# store
-My first store
+# My first store
+
+Интернет магазин одежды.
